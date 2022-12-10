@@ -1,3 +1,3 @@
-input_1 = gets.to_i
-n = input_1
-print "hello" * n
+n = gets.to_i
+a_n = readlines.map(&:to_i)
+puts a_n
