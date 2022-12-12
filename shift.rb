@@ -2,6 +2,6 @@
 #shiftメソッドは配列の先頭の要素を削除して取得ができる
 #head = [3, 100, 101, 102].shift としたとき、head には 3 が代入される。
 
-a = gets.split(' ').map(&:to_i) #to_sにすれば
+a = gets.split(' ').map(&:to_i) #to_sにすれば文字列
 n = a.shift
 a.each { |val| puts val }
