@@ -11,3 +11,9 @@ p line
 #n = gets.to_i
 #a_n = readlines.map(&:to_i)
 #puts a_n
+
+#複数行に1つの文字列を標準入力し、連結する
+#joinメソッドは連結してくれる
+
+#input = readlines.map(&:chomp)
+#print input.join
